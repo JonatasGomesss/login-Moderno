@@ -58,7 +58,7 @@
           </div>
           <div class="hero-anim">
             <p class="hero__bio">
-              Especialista em construir interfaces modernas, intuitivas e de alta performance. 
+              Especialista em construir interfaces modernas, intuitivas e de alta performance.
               Transformando códigos complexos em experiências digitais memoráveis com Vue.js e ecossistema moderno.
             </p>
           </div>
@@ -106,7 +106,7 @@
                 <div class="code-line"><span class="mu">}</span></div>
               </div>
             </div>
-            
+
             <!-- Float Icons -->
             <div class="float-asset float-asset--1">
               <i class="devicon-vuejs-plain colored" />
@@ -142,7 +142,7 @@
           >
             <div class="tech-card">
               <div class="tech-card__icon">
-                <i :class="[tech.icon, 'tech-icon']"></i>
+                <i :class="[tech.icon, 'tech-icon']" />
               </div>
               <h3 class="tech-card__name">{{ tech.name }}</h3>
               <p class="tech-card__desc">{{ tech.description }}</p>
@@ -175,7 +175,18 @@
               <div class="proj-card__content">
                 <h3 class="proj-card__title">
                   {{ proj.title }}
-                  <svg class="proj-card__ext" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" /><polyline points="15 3 21 3 21 9" /><line x1="10" x2="21" y1="14" y2="3" /></svg>
+                  <svg
+                    class="proj-card__ext"
+                    fill="none"
+                    height="16"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  ><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" /><polyline points="15 3 21 3 21 9" /><line x1="10" x2="21" y1="14" y2="3" /></svg>
                 </h3>
                 <p class="proj-card__desc">{{ proj.description }}</p>
                 <div class="proj-card__tags">
@@ -200,15 +211,51 @@
         <div>
           <div class="contact-links">
             <a class="contact-btn" href="mailto:jonatasgomes1090@gmail.com">
-              <svg fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><rect height="16" rx="2" width="20" x="2" y="4" /><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" /></svg>
+              <svg
+                fill="none"
+                height="20"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+              ><rect
+                height="16"
+                rx="2"
+                width="20"
+                x="2"
+                y="4"
+              /><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" /></svg>
               <span>Email</span>
             </a>
             <a class="contact-btn" href="https://github.com/JonatasGomesss" rel="noopener noreferrer" target="_blank">
-              <svg fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.2c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65S8.93 17.38 9 18v4" /><path d="M9 18c-4.51 2-5-2-7-2" /></svg>
+              <svg
+                fill="none"
+                height="20"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+              ><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.2c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65S8.93 17.38 9 18v4" /><path d="M9 18c-4.51 2-5-2-7-2" /></svg>
               <span>GitHub</span>
             </a>
             <a class="contact-btn" href="https://www.linkedin.com/in/jonatasgomess/" rel="noopener noreferrer" target="_blank">
-              <svg fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" /><rect height="12" width="4" x="2" y="9" /><circle cx="4" cy="4" r="2" /></svg>
+              <svg
+                fill="none"
+                height="20"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+              ><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" /><rect height="12" width="4" x="2" y="9" /><circle cx="4" cy="4" r="2" /></svg>
               <span>LinkedIn</span>
             </a>
           </div>
@@ -217,7 +264,7 @@
         <div>
           <div class="footer">
             <p class="footer__text">
-              &lt;<span style="color:var(--primary)">Jonatas da Silva Gomes</span> /&gt;  {{ year }} 
+              &lt;<span style="color:var(--primary)">Jonatas da Silva Gomes</span> /&gt;  {{ year }}
             </p>
           </div>
         </div>
@@ -228,9 +275,9 @@
 </template>
 
 <script setup>
-  import { onMounted, onUnmounted, ref } from 'vue'
   import { gsap } from 'gsap'
   import { ScrollTrigger } from 'gsap/ScrollTrigger'
+  import { onMounted, onUnmounted, ref } from 'vue'
 
   gsap.registerPlugin(ScrollTrigger)
 
@@ -244,45 +291,45 @@
   ]
 
   const techs = [
-    { 
-      name: 'Vue.js', 
-      description: 'Framework que escolhi para desenvolver interfaces modernas e reativas.', 
-      icon: 'devicon-vuejs-plain colored'
+    {
+      name: 'Vue.js',
+      description: 'Framework que escolhi para desenvolver interfaces modernas e reativas.',
+      icon: 'devicon-vuejs-plain colored',
     },
-    { 
-      name: 'TypeScript', 
-      description: 'Superset do JavaScript que adiciona tipagem estática e segurança ao código.', 
-      icon: 'devicon-typescript-plain colored'
+    {
+      name: 'TypeScript',
+      description: 'Superset do JavaScript que adiciona tipagem estática e segurança ao código.',
+      icon: 'devicon-typescript-plain colored',
     },
-    { 
-      name: 'Vuetify', 
-      description: 'Biblioteca de componentes UI para Vue que segue as diretrizes do Material Design.', 
-      icon: 'devicon-vuetify-plain colored'
+    {
+      name: 'Vuetify',
+      description: 'Biblioteca de componentes UI para Vue que segue as diretrizes do Material Design.',
+      icon: 'devicon-vuetify-plain colored',
     },
-    { 
-      name: 'JavaScript', 
-      description: 'Linguagem responsável pela lógica e interatividade das aplicações web.', 
-      icon: 'devicon-javascript-plain colored'
+    {
+      name: 'JavaScript',
+      description: 'Linguagem responsável pela lógica e interatividade das aplicações web.',
+      icon: 'devicon-javascript-plain colored',
     },
-    { 
-      name: 'Vite', 
-      description: 'Ferramenta de build extremamente rápida que otimiza o fluxo de desenvolvimento.', 
-      icon: 'devicon-vitejs-plain colored'
+    {
+      name: 'Vite',
+      description: 'Ferramenta de build extremamente rápida que otimiza o fluxo de desenvolvimento.',
+      icon: 'devicon-vitejs-plain colored',
     },
-    { 
-      name: 'HTML', 
-      description: 'Linguagem responsável por estruturar todo o conteúdo das páginas web.', 
-      icon: 'devicon-html5-plain colored'
+    {
+      name: 'HTML',
+      description: 'Linguagem responsável por estruturar todo o conteúdo das páginas web.',
+      icon: 'devicon-html5-plain colored',
     },
-    { 
-      name: 'CSS', 
-      description: 'Estiliza e organiza o layout das páginas, criando interfaces visuais atraentes.', 
-      icon: 'devicon-css3-plain colored'
+    {
+      name: 'CSS',
+      description: 'Estiliza e organiza o layout das páginas, criando interfaces visuais atraentes.',
+      icon: 'devicon-css3-plain colored',
     },
-    { 
-      name: 'Git', 
-      description: 'Sistema de controle de versão essencial para o gerenciamento de colaborativo.', 
-      icon: 'devicon-git-plain colored'
+    {
+      name: 'Git',
+      description: 'Sistema de controle de versão essencial para o gerenciamento de colaborativo.',
+      icon: 'devicon-git-plain colored',
     },
   ]
 
@@ -314,19 +361,19 @@
   onMounted(() => {
     // GSAP Hero Animations
     const tl = gsap.timeline({ defaults: { ease: 'power4.out', duration: 1.2 } })
-    
+
     tl.to('.hero-anim', {
       y: 0,
       opacity: 1,
       stagger: 0.15,
-      delay: 0.3
+      delay: 0.3,
     })
 
     tl.from('.hero__visual', {
       x: 60,
       opacity: 0,
-      duration: 1.4
-    }, "-=1")
+      duration: 1.4,
+    }, '-=1')
 
     // Floating assets animation
     gsap.to('.float-asset', {
@@ -337,8 +384,8 @@
       ease: 'sine.inOut',
       stagger: {
         each: 0.4,
-        from: 'random'
-      }
+        from: 'random',
+      },
     })
 
     // Floating animation for code card
@@ -348,7 +395,7 @@
       duration: 4,
       repeat: -1,
       yoyo: true,
-      ease: 'sine.inOut'
+      ease: 'sine.inOut',
     })
 
     // Scroll Animations
@@ -356,28 +403,28 @@
       scrollTrigger: {
         trigger: '#tech',
         start: 'top 85%',
-        toggleActions: 'play none none none'
+        toggleActions: 'play none none none',
       },
       y: 60,
       opacity: 0,
       stagger: 0.15,
       duration: 1,
       ease: 'power3.out',
-      clearProps: 'all'
+      clearProps: 'all',
     })
 
     gsap.from('.proj-card', {
       scrollTrigger: {
         trigger: '#projects',
         start: 'top 85%',
-        toggleActions: 'play none none none'
+        toggleActions: 'play none none none',
       },
       y: 60,
       opacity: 0,
       stagger: 0.2,
       duration: 1.2,
       ease: 'power3.out',
-      clearProps: 'all'
+      clearProps: 'all',
     })
   })
 </script>
@@ -410,7 +457,7 @@
 
 body {
   background: var(--bg);
-  background-image: 
+  background-image:
     radial-gradient(at 0% 0%, rgba(var(--primary-rgb), 0.1) 0px, transparent 50%),
     radial-gradient(at 100% 0%, rgba(var(--accent-rgb), 0.1) 0px, transparent 50%);
   color: var(--fg);
