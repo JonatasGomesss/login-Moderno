@@ -291,6 +291,8 @@
     { title: 'Filmes e Séries', description: 'Catálogo de filmes e séries consumindo API externa com busca e filtros.', tags: ['Vue', 'Vuetify', 'API', 'JavaScript'], link: 'https://filmes-series-psi.vercel.app/' },
     { title: 'Viagem de Chihiro', description: 'Landing page temática com animações e design imersivo.', tags: ['HTML', 'CSS'], link: 'https://viagem-de-chihiro-theta.vercel.app/' },
     { title: 'Jordan Shoes', description: 'Site portfolio com design moderno e código limpo.', tags: ['Vue', 'CSS', 'JavaScript'], link: 'https://jordanshoes-gilt.vercel.app/' },
+    { title: 'Dev Blog', description: 'Plataforma de blog moderna para compartilhamento de artigos técnicos.', tags: ['Vue', 'Vite', 'JavaScript'], link: 'https://blog-three-gilt-75.vercel.app/' },
+    { title: 'Premium Coffee', description: 'Landing page elegante para uma cafeteria gourmet com visual sofisticado.', tags: ['Vue', 'Vuetify', 'CSS'], link: 'https://coffe-iota-eight.vercel.app/' },
   ]
 
   const scrolled = ref(false)
